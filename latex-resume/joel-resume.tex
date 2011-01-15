@@ -1,0 +1,127 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+\moderncvtheme[brown]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.81]{geometry}
+
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Joel Agnel}
+\familyname{Fernandes}
+%\title{University of Texas at Dallas}               % optional, remove the line if not wanted
+% \address{2400 Waterview Parkway}{75080 Richardson, Texas}    % optional, remove the line if not wanted
+\mobile{214-558-7958}                    % optional, remove the line if not wanted
+\email{joel.fernandes@student.utdallas.edu}                      % optional, remove the line if not wanted
+% \homepage{http://www.utdallas.edu/\textasciitilde jaf090020}                % optional, remove the line if not wanted
+\extrainfo{\url{www.utdallas.edu/\textasciitilde jaf090020}}
+% \extrainfo{MSCS Student and Researcher at University of Texas at Dallas} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+% \quote{RESUME}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+%\renewcommand{\section}[1]{\textsc{#1}}
+\begin{document}
+\maketitle
+
+\section{Objective}
+\cvline{}{To obtain a Summer 2011 internship position involving the research and development of kernel, device drivers and networking systems.}
+% Internship (May 2011) positions in system software development preferably in \linebreak compilers and linkers, networking, device driver, linux kernel and embedded systems.}
+% Also interested in server side scripting in Python, Ruby and Lisp. }
+
+\section{Technical Skills}
+\cvline{\textsc{Programming}}{\small C, C++, Embedded C, Lisp, Ruby, Python, Perl, Erlang, \LaTeX .}
+\cvline{\textsc{OS}}{\small Linux, ucLinux, Windows.}
+\cvline{\textsc{Databases}}{\small MySQL, postgres, Amnesia, SQL Server 2008.}
+\cvline{\textsc{Debuggers}}{\small GDB, KGDB, KDB, Visual Studio, Wireshark, tcpdump.}
+\cvline{\textsc{Development}}{\small Emacs, Vim, Kscope, Eclipse,  Microsoft Visual Studio.}
+
+\section{Open Source Projects and Contributions}
+
+\cventry{2009--2010}{\small Linux Kernel}{}{}{}{\small
+\begin{itemize}
+\item mac80211: Added support to the MAC layer of the networking subsystem for Mesh networks to support communication of nodes within the mesh to nodes outside. Also fixed a bug in which mesh portals couldn't communicate with any other node if they were bridged.
+\item fcp: Implemented a fast-file copy/snapshot tool for the linux kernel, to help in quickly making copies of files using the ext2 and ext3 file systems. This helped create Copy-On-Write copies of huge files in a few seconds.
+\end{itemize}}
+\cventry{2010}{\small GILL: Gentle Introduction to Linking and Loading}{\small In Progress}{}{}{A light weight guide to linking and loading fundamentals with examples in Linux.}
+\cventry{2010}{\small GDB-Kernel}{}{}{}{\small Gdb-kernel: In the process of modifying GDB to better support kernel debugging over a serial port by learning kernel symbol addresses when kernel modules are loaded anywhere in memory.}
+\cventry{2009}{\small StumpWM}{}{}{}{\small Developed a widget for switching windows in the StumpWM window manager. Written in Common Lisp with X windows libraries on Linux. }
+\cventry{2009}{\small GNU Emacs jabber-mode}{}{}{}{\small Developed a plugin to implement new-email notification (Google's XMPP extension) in Lisp.}
+
+\hfill\scriptsize{These projects are listed with source code at: \href{http://github.com/joelagnel}{http://github.com/joelagnel}}
+\normalsize
+\newline
+\newline
+\section{Research Experience}
+\cventry{Fall 2010 - Spring 2011}{\small Research Assistant}{\small Distributed Systems Lab, University of Texas at Dallas}{}{}
+{Currently working on the mac80211 Linux Kernel project which implements the IEEE 802.11 networking subsystem used by wireless device drivers. Looking at different ways to improve throughput by identifying bottle necks and optimizing the code.}
+\section{Professional Work Experience}
+% \subsection{Vocational}
+\cventry{2008--2010}{Linux Kernel Developer}{Atlantis Computing}{Bangalore}{}{Responsible for design, development and maintenance of block layer and file system components in the virtualization product stack.\newline
+\emph{Components developed:}
+\begin{itemize}
+\item \textbf{dedup-fs}: A data deduplication layer in the linux kernel to deduplicate redundant blocks in the ext2/ext3 file systems. Also implemented a parallel lazy-dedup version of the same for soft real time data deduplication that scales on multi-core architectures.
+\item \textbf{dm-cache}:  Improved linux kernel device-mapper's dm-cache module with the following enhancements:
+	\begin{enumerate}
+		\item most-frequently-used (MFU) content-aware caching mechanism.
+		\item Periodic write-back of dirty-blocks from cache to improve cache effectiveness.
+	\end{enumerate}
+\end{itemize}}
+\newline
+\cventry{2007--2008}{Embedded Systems Engineer}{Siemens Information Systems Ltd.}{Bangalore}{}{Embedded Systems Developer in the Engine Management Systems team.\newline
+Worked on development of safety critical monitoring software layer using  MSP 430 low-power microcontroller, Embedded C and Python.}
+
+\section{Academics}
+\subsection{Achievements}
+\cventry{2010--2011}{University of Texas at Dallas}{MS in Computer Science}{}{}{
+\begin{itemize}
+	\item Obtained Grade Point Average (GPA) of 4.0 for the Fall 2010 semester.
+	\item Awarded full tuition waiver scholarship by the department for Spring 2011.
+\end{itemize}}
+\cventry{2003--2007}{Visvesvaraya Technological University}{B.E. in Electronics and Communication}{}{}{
+\begin{itemize}
+	\item First class with distinction in all semesters (1st to 8th sem), second rank in university.
+	\item Received Merit Scholarship during the 2nd and 3rd year (2004--2005 and 2005--2006).
+\end{itemize}}
+
+\subsection{Projects}
+\cventry{2006--2007}{Final Year Project}{B.E. Electronics and Communication Engineering}{\newline \small{Visvesvaraya Technological University}}{\small India}{Developed a tool using the C\# programming language for Image Enhancement, Restoration, and Recognition using various Image processing algorithms such as principle component analysis (PCA).}
+\cventry{2005--2006}{Research Project}{B.E. Electronics and Communication Engineering}  {\newline \small{Visvesvaraya Technological University}}{\small India}{Developed a tool for compressing and decompressing binary and text files using a unique entropy encoding algorithm. Written in C.}
+
+\subsection{\textsc{Research Interests}}
+\cvlistdoubleitem{Data Deduplication}{Wireless Mesh Networks}
+\cvlistdoubleitem{OS Schedulers}{Kernel debugging techniques}
+\cvlistdoubleitem{TCP Congestion Control}{Filesystems for Virtualization}
+
+\subsection{\textsc{Relevant Coursework}}
+\cvlistdoubleitem{Computer Architecture}{Operating Systems} 
+\cvlistdoubleitem{Microprocessors}{VLSI Design} 
+\cvlistdoubleitem{Advanced Operating Systems}{Advanced Computer Networks}
+\end{document}
