@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.11.3)  15 JAN 2011 01:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.11.3)  15 JAN 2011 02:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,31 +640,27 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 52.
 (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
-
- []
-
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <14.4> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 54.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 53.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--58
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 60.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 59.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 60.
+(Font)              <10> on input line 59.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 60.
+(Font)              <7> on input line 59.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 60.
+(Font)              <5> on input line 59.
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 59--65
 
  []
 
@@ -732,7 +728,7 @@ nts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/urw/courier/ucrro8a.pfb>
-Output written on joel-resume.pdf (2 pages, 238570 bytes).
+Output written on joel-resume.pdf (2 pages, 238730 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
