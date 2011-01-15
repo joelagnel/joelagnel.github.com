@@ -1,4 +1,7 @@
 <style type="text/css">
+	body {
+		font-size: 13pt;
+	}
 	#div-contact {
 		position: absolute;
 		top:10;
@@ -21,8 +24,9 @@
 <div>
 <div style="text-align: left;"><span style="font-size: 32px; font-family: 'Times New Roman'; ">Joel Agnel Fernandes</span></div>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
-<div style="text-align: left;"><span style="font-size: 14pt; ">Computer Science Graduate Student (Since Fall 2010)</span></div>
-<div style="text-align: left;"><span style="font-size: 14pt; ">University of Texas at Dallas</span></div>
+<div style="text-align: left;"><span style="font-size: 13pt; ">Graduate Student and Research Assistant</span></div>
+<div style="text-align: left;"><span style="font-size: 13pt; ">Distributed Systems Lab, CS Department.</span></div>
+<div style="text-align: left;"><span style="font-size: 13pt; ">The University of Texas at Dallas</span></div>
 <div style="text-align: left;"><span style="font-size: 14pt; "><br />
 </span></div>
 
@@ -57,8 +61,8 @@
 <img  id="mypic" src="me.jpg" width="20%" height="20%" align=left>
 	<br>
 	<b>Email:</b><br>
-	<a href="agnel.joel@gmail.com">agnel.joel@gmail.com</a><br>
-	<a href="joel.fernandes@student.utdallas.edu">joel.fernandes@student.utdallas.edu</a><br><br>
+	<a href="mailto:agnel.joel@gmail.com">agnel.joel@gmail.com</a><br>
+	<a href="mailto:joel.fernandes@utdallas.edu">joel.fernandes@utdallas.edu</a><br><br>
 	<a href="http://www.hackerbliss.org">Read my blog on computer science</a></b>
 </div>
 <br>
