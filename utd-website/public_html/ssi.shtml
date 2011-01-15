@@ -1,0 +1,65 @@
+<style type="text/css">
+	#div-contact {
+		position: absolute;
+		top:10;
+		right:0;
+		width:60%;
+		overflow: visible;
+	}
+	#mypic {
+ 		display:block;
+	}
+</style>
+<style type="text/css">
+	A:link {text-decoration: none; color: blue;}
+	A:visited {text-decoration: none; color: blue;}
+	A:active {text-decoration: none}
+	A:hover {text-decoration: none; color: red;}
+</style>
+<br>
+<div width="100%">
+<div>
+<div style="text-align: left;"><span style="font-size: 32px; font-family: 'Times New Roman'; ">Joel Agnel Fernandes</span></div>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+<div style="text-align: left;"><span style="font-size: 14pt; ">Computer Science Graduate Student (Since Fall 2010)</span></div>
+<div style="text-align: left;"><span style="font-size: 14pt; ">University of Texas at Dallas</span></div>
+<div style="text-align: left;"><span style="font-size: 14pt; "><br />
+</span></div>
+
+<!--#if expr='"$DOCUMENT_URI" = "/~jaf090020/index.html"' -->
+<b>
+<!--#endif-->
+<a href="/~jaf090020/">[ Main ]</a>
+<!--#if expr='"$DOCUMENT_URI" = "/~jaf090020/index.html"' -->
+</b>
+<!--#endif-->
+
+&nbsp; &nbsp;
+
+<!--#if expr='"$DOCUMENT_URI" = "/~jaf090020/page.html"' -->
+<b>
+<!--#endif -->
+<a href="page.html"></a>
+<!--#if expr='"$DOCUMENT_URI" = "/~jaf090020/page.html"' -->
+</b>
+<!--#endif -->
+
+<a href="http://www.github.com/joelagnel">[ Code ]</a>
+&nbsp; &nbsp;
+
+<a href="/~jaf090020/joel-resume.pdf">[ Resume ]</a>
+&nbsp; &nbsp;
+
+<a href="http://www.hackerbliss.org/">[ Blog ]</a>
+
+</div>
+<div id="div-contact">
+<img  id="mypic" src="me.jpg" width="20%" height="20%" align=left>
+	<br>
+	<b>Email:</b><br>
+	<a href="agnel.joel@gmail.com">agnel.joel@gmail.com</a><br>
+	<a href="joel.fernandes@student.utdallas.edu">joel.fernandes@student.utdallas.edu</a><br><br>
+	<a href="http://www.hackerbliss.org">Read my blog on computer science</a></b>
+</div>
+<br>
+
