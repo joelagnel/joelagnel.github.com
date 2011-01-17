@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.11.3)  15 JAN 2011 02:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.1.13)  16 JAN 2011 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -12,14 +12,15 @@ Document Class: moderncv 2010/08/03 v0.12 modern curriculum vitae document clas
 s
 (/usr/share/texmf-texlive/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-)
-(/usr/share/texmf-texlive/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2009/08/06 v1.8 e-TeX tools for LaTeX
+) (./etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
 
 (/usr/share/texmf-texlive/tex/latex/etex-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count79
-))
+)
+\etb@tempcnta=\count80
+)
 (/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
@@ -33,7 +34,7 @@ Package color Info: Driver file: pdftex.def on input line 130.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count80
+\Gread@gobject=\count81
 ))
 (/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
@@ -387,9 +388,9 @@ Package ifpdf Info: pdfTeX in pdf mode detected.
 Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count81
-\Gm@cntv=\count82
-\c@Gm@tempcnt=\count83
+\Gm@cnth=\count82
+\Gm@cntv=\count83
+\c@Gm@tempcnt=\count84
 \Gm@bindingoffset=\dimen104
 \Gm@wd@mp=\dimen105
 \Gm@odd@mp=\dimen106
@@ -410,8 +411,8 @@ O)
 Package: xcolor-patch 2009/10/02 xcolor patch
 ))
 \@linkdim=\dimen108
-\Hy@linkcounter=\count84
-\Hy@pagecounter=\count85
+\Hy@linkcounter=\count85
+\Hy@pagecounter=\count86
 
 (/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
@@ -429,7 +430,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )
-(/etc/texmf/tex/latex/config/hyperref.cfg
+(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 (/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
@@ -473,7 +474,7 @@ Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 )))
-\Fld@menulength=\count86
+\Fld@menulength=\count87
 \Field@Width=\dimen109
 \Fld@charsize=\dimen110
 \Field@toks=\toks18
@@ -492,13 +493,13 @@ Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
 Package hyperref Warning: Option `pdfpagelabels' is turned off
 (hyperref)                because \thepage is undefined.
 
-\c@Item=\count87
-\c@Hfootnote=\count88
+\c@Item=\count88
+\c@Hfootnote=\count89
 )
 *hyperref using driver hpdftex*
 (/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count89
+\Fld@listcount=\count90
 )
 (./moderncvthemeclassic.sty
 Package: moderncvthemeclassic 2010/08/03 v0.12 modern curriculum vitae style: c
@@ -550,15 +551,15 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count90
+\scratchcounter=\count91
 \scratchdimen=\dimen111
 \scratchbox=\box26
-\nofMPsegments=\count91
-\nofMParguments=\count92
+\nofMPsegments=\count92
+\nofMParguments=\count93
 \everyMPshowfont=\toks19
-\MPscratchCnt=\count93
+\MPscratchCnt=\count94
 \MPscratchDim=\dimen112
-\MPnumerator=\count94
+\MPnumerator=\count95
 \everyMPtoPDFconversion=\toks20
 )
 *geometry auto-detecting driver*
@@ -609,7 +610,7 @@ Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 (/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
 Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
-\c@section@level=\count95
+\c@section@level=\count96
 )
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
@@ -645,32 +646,32 @@ LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <14.4> not available
 (Font)              Font shape `T1/lmr/m/sc' tried instead on input line 53.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 59.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 58.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 59.
+(Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 58.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--65
+Underfull \hbox (badness 10000) in paragraph at lines 58--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--77
+Underfull \hbox (badness 10000) in paragraph at lines 71--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
@@ -678,42 +679,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--82
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 96.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--99
 
  []
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <12> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 102.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 101.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 106--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--122
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--121
 
  []
 
 [2] (./joel-resume.aux) ) 
 Here is how much of TeX's memory you used:
- 5813 strings out of 495061
- 81031 string characters out of 1182621
- 165902 words of memory out of 3000000
- 8848 multiletter control sequences out of 15000+50000
+ 5886 strings out of 495061
+ 81844 string characters out of 1182621
+ 167790 words of memory out of 3000000
+ 8922 multiletter control sequences out of 15000+50000
  78469 words of font info for 56 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  40i,12n,45p,773b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -728,7 +729,7 @@ nts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-texl
 ive/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-texlive/fonts/ty
 pe1/urw/courier/ucrro8a.pfb>
-Output written on joel-resume.pdf (2 pages, 238730 bytes).
+Output written on joel-resume.pdf (2 pages, 238822 bytes).
 PDF statistics:
  100 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
