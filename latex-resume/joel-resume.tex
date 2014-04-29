@@ -9,7 +9,7 @@
 \documentclass[11pt,a4paper]{moderncv}
 
 % moderncv themes
-\moderncvtheme[brown]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
 %\moderncvtheme[green]{classic}                % idem
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
@@ -25,12 +25,12 @@
 \firstname{Joel Agnel}
 \familyname{Fernandes}
 \title{Joel Agnel Fernandes}               % optional, remove the line if not wanted
-% \address{2400 Waterview Parkway}{75080 Richardson, Texas}    % optional, remove the line if not wanted
-\mobile{214-558-7958}                    % optional, remove the line if not wanted
-\email{joel.fernandes@utdallas.edu}                      % optional, remove the line if not wanted
-% \homepage{http://www.utdallas.edu/\textasciitilde jaf090020}                % optional, remove the line if not wanted
-\extrainfo{\url{www.utdallas.edu/\textasciitilde jaf090020}}
-% \extrainfo{MSCS Student and Researcher at University of Texas at Dallas} % optional, remove the line if not wanted
+\address{11911 Greenville Avenue, Apt 3125}{Dallas, TX 75243}    % optional, remove the line if not wanted
+\mobile{650-450-8135}                    % optional, remove the line if not wanted
+\email{agnel.joel@gmail.com}                      % optional, remove the line if not wanted
+\homepage{http://www.linuxinternals.org/}                % optional, remove the line if not wanted
+\extrainfo{\small{\url{http://linkedin.com/in/joelagnel}}}
+% \extrainfo{Systems Engineer, Kernel Developer and Researcher} % optional, remove the line if not wanted
 %\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
 % \quote{RESUME}                 % optional, remove the line if not wanted
 
@@ -51,39 +51,39 @@
 \begin{document}
 \maketitle
 \section{Objective}
-\cvline{}{To obtain May 2011 internship or September 2012 full-time position involving research and development of kernel, device drivers, networking, storage and embedded systems.}
-% Internship (May 2011) positions in system software development preferably in \linebreak compilers and linkers, networking, device driver, linux kernel and embedded systems.}
-% Also interested in server side scripting in Python, Ruby and Lisp. }
+\cvline{}{To obtain a challenging kernel engineering position where I can apply my skills in my areas of expertise including:}
+\cvlistitem{In-depth Knowledge of ARM Architecture.}
+\cvlistitem{In-depth Knowledge of Memory models, Caching, Barriers and DMA.}
+\cvlistitem{Successful bring up of complex SoC on FPGA and real boards.}
+\cvlistitem{Expertise in writing Device Drivers for Linux kernel.}
+\cvlistitem{Expertise in writing Parallel code for Multi-core systems.}
+\cvlistitem{Knowledge of peripherals such as i2c, SPI, Timers, DMA controllers.}
+\cvlistitem{Exploring and writing about OS internals (www.linuxinternals.org).}
 
 \section{Technical Skills}
-\cvline{\textsc{Programming}}{\small C, C++, Embedded C, Lisp, Ruby, Python, Perl, Erlang, \LaTeX, VHDL.}
-\cvline{\textsc{OS}}{\small Linux, ucLinux, Windows.}
-\cvline{\textsc{Databases}}{\small MySQL, postgres, Amnesia, SQL Server 2008.}
-\cvline{\textsc{Debuggers}}{\small GDB, KGDB, KDB, Visual Studio, Wireshark, tcpdump.}
-\cvline{\textsc{Development}}{\small Emacs, Vim, Kscope, Eclipse,  Microsoft Visual Studio.}
-\cvline{\textsc{Other Tools}}{\small Git, SVN, Gnuplot, LyX, pdfLaTeX, Matlab, ModelSim.}
-\cvline{\textsc{Processors}}{\small Intel x86, Intel x86-64, Intel 8051, ARM, MIPS, MSP430.}
+\cvline{\textsc{Programming}}{\small C, Assembly, Embedded C, Lisp, Ruby, Python, Perl, Erlang, \LaTeX, Verilog.}
+\cvline{\textsc{Processors}}{\small ARM Cortex-A, Cortex-M, ARM9, Amber core, MSP430, x86, x86-64, 8051.}
+\cvline{\textsc{OS}}{\small Linux, Android, ucLinux, Windows.}
+\cvline{\textsc{Debug Tools}}{\small GDB, KGDB, KDB, Ftrace, SystemTap, ktap, Lauterbach, OpenOCD, Eclipse, Wireshark. }
+\cvline{\textsc{Other Tools}}{\small Git, SVN, Vim, Emacs, cscope, Gnuplot, Matlab, ModelSim.}
 \small{\newline}
-\section{Open Source Projects and Contributions}
-\cventry{2009--2010}{\small Linux Kernel}{}{}{}{\small
+\newline
+\newline
+\section{Work Experience}
+\cventry{Jun 2012 - Present}{Senior Systems Engineer}{Linux Core Product Development, Texas Instruments}{}{}
+{Embedded Systems Design, Development focusing on processors, early kernel boot, DMA and security. Active contributor to several open source and open hardware projects including:
 \begin{itemize}
-\item mac80211: Added support to the MAC layer of the networking subsystem for Mesh networks to support communication of nodes within the mesh to nodes outside. Also fixed a bug in which mesh portals couldn't communicate with any other node if they were bridged.
-\item fcp: Implemented a fast-file copy/snapshot tool for the linux kernel, to help in quickly making copies of files using the ext2 and ext3 file systems. This helped create Copy-On-Write copies of huge files in a few seconds.
+\item \textbf{Linux Kernel}: Maintainer of the EDMA DMA Engine driver. Authored several improvements to DMA (performance and framework). Author of OMAP DES driver for OMAP SoCs. Also, I've worked on every level of the kernel stack including machine layer, early boot code (ARM), block layer, file systems, networking and display drivers. Optimized performance and fixed bugs with heavy use of tracing, profile and debug tools. Proven track record to understand and take ownership of complex code in small amount of time and improve them.
+\item \textbf{U-boot}: Contributed various features and bug fixes for TI OMAP SoCs. Modified U-boot to perform secure boot on SoCs. Improved U-boot's build system for first stage loader (SPL). Improved code density of binaries by analyzing Disassembly and conducting relevant experiments.
+\item \textbf{OpenHardware development}: Baseport and board bring up (Linux Kernel and U-boot) for beagleboard.org boards. Developed hardware prototypes of different projects for Beagle community. Currently responsible for core Linux kernel support for TI's Davinci, OMAP and Sitara line of ARM based SoCs.
 \end{itemize}}
-\cventry{2010}{\small GILL: Gentle Introduction to Linking and Loading}{\small In Progress}{}{}{A light weight guide to linking and loading fundamentals with examples in Linux.}
-\cventry{2010}{\small GDB-Kernel}{}{}{}{\small Gdb-kernel: In the process of modifying GDB to better support kernel debugging over a serial port by learning kernel symbol addresses when kernel modules are loaded anywhere in memory.}
-\cventry{2009}{\small StumpWM}{}{}{}{\small Developed a widget for switching windows in the StumpWM window manager. Written in Common Lisp with X windows libraries on Linux. }
-\cventry{2009}{\small GNU Emacs jabber-mode}{}{}{}{\small Developed a plugin to implement new-email notification (Google's XMPP extension) in Lisp.}
+\newline
+\cventry{Jun 2011 - December 2011}{Embedded Systems Engineer Intern}{ARM MPU Business Unit, Texas Instruments}{}{}
+{Software designer and architect of Beagleboard and Beagleboard-xM projects. Developed and debugged Display, Audio, USB, Networking, ADC subsystem drivers. Also, contributed support for Beagleboard-xM to U-boot mainline community.}
 
-\hfill\scriptsize{These projects are listed with source code at: \href{http://github.com/joelagnel}{http://github.com/joelagnel}}
-\normalsize
-\newline
-\newline
-\section{Research Experience}
-\cventry{Fall 2010 - Spring 2011}{\small Research Assistant}{\small Distributed Systems Lab, University of Texas at Dallas}{}{}
-{Currently working on optimizing link conditions and bottle necks in IEEE 802.11a,g,n by modifying the mac80211 Linux Kernel code which implements the IEEE 802.11 networking subsystem for wireless device drivers. Using TI DM6446 EVM for experimentation.}
-\section{Professional Work Experience}
-% \subsection{Vocational}
+\cventry{September 2010 - May 2011}{\small Research Assistant}{\small Distributed Systems Lab, University of Texas at Dallas}{}{}
+{Conducted research and experiments on different metrics to estimate the link conditions and thus improve routing. Modified drivers and mac80211 Linux Kernel code and carried out experiments. Worked on TCP/IP, UDP and other areas. Fixed bugs in wireless driver and packet routing/bridging code.}
+
 \cventry{2008--2010}{Linux Kernel Developer}{Atlantis Computing}{Bangalore}{}{Responsible for design, development and maintenance of block layer and file system components in the virtualization product stack.\newline
 \emph{Components developed:}
 \begin{itemize}
@@ -100,28 +100,24 @@ Worked on development of safety critical monitoring software layer using  MSP 43
 
 \section{Academics}
 \subsection{Education and Achievements}
-\cventry{Fall 2010 -- Current}{MS in Computer Engineering}{University of Texas at Dallas}{}{}{
+\cventry{2010--2012}{MS in Computer Engineering}{University of Texas at Dallas}{}{}{
 \begin{itemize}
-	\item Obtained Grade Point Average (GPA) of 4.0 for the Fall 2010 semester.
+	\item Obtained Grade Point Average (GPA) of 3.97/4.0. "A" Grade in 10/11 courses.
 	\item Awarded full tuition waiver scholarship by the department for Spring 2011.
 \end{itemize}}
 \cventry{2003--2007}{BE in Electronics and Communication}{Visvesvaraya Technological University}{}{}{
 \begin{itemize}
-	\item First class with distinction in all semesters (1st to 8th sem), second rank in university.
+	\item First class with distinction in all semesters (1st to 8th sem), second rank in the college.
 	\item Received Merit Scholarship during the 2nd and 3rd year (2004--2005 and 2005--2006).
 \end{itemize}}
 
-\subsection{Projects}
-\cventry{2006--2007}{Final Year Project}{B.E. Electronics and Communication Engineering}{\newline \small{Visvesvaraya Technological University}}{\small India}{Developed a tool using the C\# programming language for Image Enhancement, Restoration, and Recognition using various Image processing algorithms such as principle component analysis (PCA).}
-\cventry{2005--2006}{Research Project}{B.E. Electronics and Communication Engineering}  {\newline \small{Visvesvaraya Technological University}}{\small India}{Developed a tool for compressing and decompressing binary and text files using a unique entropy encoding algorithm. Written in C.}
-
 \subsection{\textsc{Research Interests}}
-\cvlistdoubleitem{Data Deduplication}{Wireless Mesh Networks}
-\cvlistdoubleitem{OS Schedulers}{Kernel debugging techniques}
-\cvlistdoubleitem{TCP Congestion Control}{Filesystems for Virtualization}
+\cvlistdoubleitem{Realtime Systems}{Multicore processors}
+\cvlistdoubleitem{OS Schedulers}{Concurrency}
+\cvlistdoubleitem{Computer Architecture}{Cache Coherent Systems}
 
 \subsection{\textsc{Relevant Coursework}}
 \cvlistdoubleitem{Computer Architecture}{Operating Systems} 
 \cvlistdoubleitem{Microprocessors}{VLSI Design} 
-\cvlistdoubleitem{Advanced Operating Systems}{Advanced Computer Networks}
+\cvlistdoubleitem{Advanced Operating Systems}{Computer Arithmetic}
 \end{document}
